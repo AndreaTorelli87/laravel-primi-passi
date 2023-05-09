@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body class="p-0 m-0">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container px-5">
@@ -32,15 +33,7 @@
     <div class="container">
         <h1
             class="display-1 fw-bold p-3 m-4 text-danger rounded-5 bg-warning d-flex justify-content-center align-items-center">
-            Hello World!
-        </h1>
-        <h1
-            class="display-1 fw-bold p-3 m-4 text-danger rounded-5 bg-warning d-flex justify-content-center align-items-center">
-            {{ $hello . ' ' . $world }}
-        </h1>
-        <h1
-            class="display-1 fw-bold p-3 m-4 text-danger rounded-5 bg-warning d-flex justify-content-center align-items-center">
-            {{ $hello }} {{ $world }}
+            {{$free}}
         </h1>
     </div>
 </body>

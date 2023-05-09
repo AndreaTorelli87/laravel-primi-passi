@@ -32,15 +32,7 @@
     <div class="container">
         <h1
             class="display-1 fw-bold p-3 m-4 text-danger rounded-5 bg-warning d-flex justify-content-center align-items-center">
-            Hello World!
-        </h1>
-        <h1
-            class="display-1 fw-bold p-3 m-4 text-danger rounded-5 bg-warning d-flex justify-content-center align-items-center">
-            {{ $hello . ' ' . $world }}
-        </h1>
-        <h1
-            class="display-1 fw-bold p-3 m-4 text-danger rounded-5 bg-warning d-flex justify-content-center align-items-center">
-            {{ $hello }} {{ $world }}
+            <span>{{$statement}}</span>
         </h1>
     </div>
 </body>
